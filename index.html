@@ -245,85 +245,67 @@
         </section>
 
         <!-- Download Section -->
-        <section id="download" class="py-16 md:py-24 relative overflow-hidden bg-slate-50">
+        <section id="download" class="py-24 relative overflow-hidden bg-slate-900 text-white">
+            <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#FACC15] to-transparent"></div>
+            
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-
-                <div class="text-center mb-12 md:mb-16 reveal">
-                    <h2 class="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 text-slate-900">Get the <span
-                            class="text-gradient">App</span></h2>
-                    <p class="text-xl text-slate-600 max-w-2xl mx-auto font-medium">Follow these simple steps to install
-                        our AR/VR experience on your device.</p>
+                <div class="text-center mb-16 reveal">
+                    <h2 class="text-5xl md:text-7xl font-bold mb-6">Experience <span class="text-[#FACC15]">Spatial Magic</span></h2>
+                    <p class="text-xl text-slate-400 max-w-2xl mx-auto font-medium">Download the official Info Scan engine and start exploring hidden layers of reality today.</p>
                 </div>
 
-                <!-- Download Card -->
-                <div
-                    class="w-full glass-panel bg-white p-10 md:p-14 mb-20 text-center reveal border border-[#FACC15]/40 shadow-[0_10px_40px_rgba(250,204,21,0.15)]">
-                    <div
-                        class="w-24 h-24 mx-auto bg-gradient-to-br from-[#FACC15]/20 to-[#EAB308]/20 rounded-full flex items-center justify-center mb-6 animate-pulse">
-                        <svg class="w-12 h-12 text-[#D97706]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                        </svg>
+                <!-- New Modern Download Card -->
+                <div class="grid md:grid-cols-2 gap-8 items-center glass-panel bg-white/5 border-white/10 p-8 md:p-12 rounded-[3rem] shadow-2xl reveal">
+                    <div class="text-center md:text-left">
+                        <div class="inline-block px-4 py-1 rounded-full bg-[#FACC15]/10 text-[#FACC15] text-sm font-bold mb-6 border border-[#FACC15]/20">
+                            AVAILABLE FOR ANDROID
+                        </div>
+                        <h3 class="text-4xl font-bold mb-4">Info Scan v1.0.0</h3>
+                        <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                            Full AR/VR capabilities, real-time object detection, and 60FPS immersive rendering optimized for your device.
+                        </p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="assets/InfoScan.apk" download="InfoScan.apk"
+                                class="group relative px-8 py-5 rounded-2xl font-bold text-black bg-[#FACC15] hover:bg-[#EAB308] transition-all duration-300 flex items-center justify-center gap-3 text-lg overflow-hidden shadow-[0_0_30px_rgba(250,204,21,0.3)]">
+                                <div class="absolute inset-0 w-1/2 h-full bg-white/20 skew-x-[-25deg] -translate-x-full group-hover:translate-x-[250%] transition-transform duration-1000"></div>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h2v2h-2v-2zm0-10h2v8h-2V6z"/>
+                                </svg>
+                                <span>Download APK</span>
+                            </a>
+                            <div class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10">
+                                <span class="text-slate-400 text-sm">Size: <b class="text-white">90.7 MB</b></span>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-4xl font-bold mb-4 text-slate-900">Latest Version (v1.0.0)</h3>
-                    <p class="text-slate-600 text-lg mb-10 max-w-lg mx-auto font-medium">Download the APK directly to
-                        your device.</p>
 
-                    <div class="flex flex-col sm:flex-row gap-5 justify-center">
-                        <a href="assets/base.apk" download="InfoScan_v1.0.apk"
-                            class="px-10 py-5 rounded-2xl font-bold text-black bg-[#FACC15] hover:bg-[#EAB308] hover:shadow-[0_0_30px_rgba(250,204,21,0.4)] transition-all duration-300 flex items-center justify-center gap-3 text-lg">
-                            <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
-                                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                            </svg>
-                            Download APK
-                        </a>
+                    <div class="relative flex justify-center py-8">
+                        <div class="w-48 h-48 rounded-[2.5rem] bg-gradient-to-br from-[#FACC15] to-[#EAB308] p-1 shadow-[0_0_50px_rgba(250,204,21,0.2)]">
+                            <div class="w-full h-full bg-slate-900 rounded-[2.3rem] flex items-center justify-center">
+                                <img src="assets/icon.png" alt="App Icon" class="w-32 h-32 rounded-3xl shadow-2xl animate-glow">
+                            </div>
+                        </div>
+                        <!-- Decorative Orbs -->
+                        <div class="absolute -top-4 -right-4 w-12 h-12 bg-[#FACC15]/20 blur-xl rounded-full"></div>
+                        <div class="absolute -bottom-4 -left-4 w-20 h-20 bg-[#EAB308]/10 blur-2xl rounded-full"></div>
                     </div>
                 </div>
 
-                <!-- How to Use Section -->
-                <div class="w-full">
-                    <h3 class="text-4xl font-bold mb-12 text-center reveal text-slate-900">How to <span
-                            class="text-gradient">Use</span></h3>
-
-                    <div class="space-y-6">
-                        <div
-                            class="glass-panel bg-white p-8 flex flex-col md:flex-row items-center md:items-start gap-8 reveal hover:border-[#D97706]/50 transition-colors border-slate-200 shadow-sm">
-                            <div
-                                class="w-16 h-16 shrink-0 rounded-2xl bg-[#FACC15] flex items-center justify-center text-2xl font-bold text-black shadow-md">
-                                1</div>
-                            <div class="text-center md:text-left">
-                                <h4 class="text-3xl font-bold mb-3 text-slate-900">Install the App</h4>
-                                <p class="text-slate-600 text-lg font-medium">Download the app file from the link above.
-                                    If installing an APK, ensure that "Install from Unknown Sources" is enabled in your
-                                    device settings.</p>
-                            </div>
-                        </div>
-
-                        <div
-                            class="glass-panel bg-white p-8 flex flex-col md:flex-row items-center md:items-start gap-8 reveal hover:border-[#D97706]/50 transition-colors border-slate-200 shadow-sm">
-                            <div
-                                class="w-16 h-16 shrink-0 rounded-2xl bg-[#EAB308] flex items-center justify-center text-2xl font-bold text-black shadow-md">
-                                2</div>
-                            <div class="text-center md:text-left">
-                                <h4 class="text-3xl font-bold mb-3 text-slate-900">Grant Permissions</h4>
-                                <p class="text-slate-600 text-lg font-medium">Launch the app and allow camera access.
-                                    The AR/VR engine requires the camera to map your physical environment accurately.</p>
-                            </div>
-                        </div>
-
-                        <div
-                            class="glass-panel bg-white p-8 flex flex-col md:flex-row items-center md:items-start gap-8 reveal hover:border-[#D97706]/50 transition-colors border-slate-200 shadow-sm">
-                            <div
-                                class="w-16 h-16 shrink-0 rounded-2xl bg-[#FACC15] flex items-center justify-center text-2xl font-bold text-black shadow-md">
-                                3</div>
-                            <div class="text-center md:text-left">
-                                <h4 class="text-3xl font-bold mb-3 text-slate-900">Scan Your Environment</h4>
-                                <p class="text-slate-600 text-lg font-medium">Move your device slowly in a well-lit area
-                                    until the tracking grid appears. Tap anywhere to spawn AR/VR objects and step into new
-                                    realities.</p>
-                            </div>
-                        </div>
+                <!-- Installation Guide (Compact) -->
+                <div class="mt-16 grid sm:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="text-[#FACC15] font-bold text-xl mb-2">01. Download</div>
+                        <p class="text-slate-500 text-sm">Tap the download button and save the InfoScan.apk file.</p>
+                    </div>
+                    <div class="p-6 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="text-[#FACC15] font-bold text-xl mb-2">02. Unknown Sources</div>
+                        <p class="text-slate-500 text-sm">Enable 'Install from Unknown Sources' in your Android settings.</p>
+                    </div>
+                    <div class="p-6 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="text-[#FACC15] font-bold text-xl mb-2">03. Launch</div>
+                        <p class="text-slate-500 text-sm">Open the file, install, and grant camera permissions for AR.</p>
                     </div>
                 </div>
             </div>
@@ -407,12 +389,6 @@
                                     class="w-full glass-input rounded-xl px-5 py-4 text-lg bg-slate-50 font-medium"
                                     placeholder="Name" required>
                             </div>
-                            <!-- <div>
-                                <label for="email" class="block text-base font-bold text-slate-800 mb-3">Email</label>
-                                <input type="email" id="email" name="email"
-                                    class="w-full glass-input rounded-xl px-5 py-4 text-lg bg-slate-50 font-medium"
-                                    placeholder="Email" required>
-                            </div> -->
                         </div>
 
                         <div>
@@ -512,8 +488,6 @@
                 <div>
                     <h4 class="text-slate-900 font-bold text-xl mb-6">Contact</h4>
                     <ul class="space-y-4">
-                        <!-- <li><a href="#" class="text-slate-600 hover:text-slate-900 transition-colors font-bold text-lg">Privacy Policy</a></li>
-                        <li><a href="#" class="text-slate-600 hover:text-slate-900 transition-colors font-bold text-lg">Terms of Service</a></li> -->
                         <li><a href="https://www.linkedin.com/in/dr-manmohan-singh-278184199/"
                                 class="text-slate-600 hover:text-slate-900 transition-colors font-bold text-lg">Message
                                 Me</a></li>
